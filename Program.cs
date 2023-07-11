@@ -26,11 +26,7 @@ namespace ConsoleApp1
             }
             Console.ReadKey();*/
             /*
-            StringBuilder build = new StringBuilder("Welcome");
-            build.Append(" To C# ");
-            build.Append("I am String Builder");
-            Console.WriteLine(build);
-            Console.ReadKey();*/
+           */
             for(int i = 1; i < 10; i++)
             {
                 if (i == 6)
