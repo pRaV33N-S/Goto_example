@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string userName;
+            Again:
             Console.WriteLine("Enter User Name");
             userName = Console.ReadLine();
             if(userName.Length>=6)
@@ -20,6 +21,7 @@ namespace ConsoleApp1
             else
             {
                 Console.WriteLine("Invalid User Name");
+                goto Again;
             }
             Console.ReadKey();
         }
